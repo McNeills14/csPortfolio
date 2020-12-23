@@ -1,0 +1,109 @@
+body{
+  background-color: #000000;
+font-family: 'Anton', sans-serif;
+
+
+ 
+
+}
+#bannerimg {
+     width: 100%;
+     height: 10vw;
+}
+ .menu {
+     display: flex;
+     border: 5px solid  #0000;
+     padding: 2px;
+     margin: 1px;
+}
+ .menu a {
+     color: #0000;
+     text-decoration: none;
+     text-align: center;
+     font-family: 'Patua One', cursive;
+     font-size: 22px;
+}
+ .box {
+     flex-grow: 1;
+     background: black;
+    color: #1F1D26;
+     border: 1px solid;
+     
+     text-align: center;
+     padding: 10px;
+    
+}
+/*page layout with flexbox*/
+ .flexbox-container {
+    display: flex;
+    border: 5px solid #000000;
+    margin-bottom: 20px;
+    align-content: space-around;
+
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid #333;
+    background-color: #DFE9EE;
+}
+
+.flexbox-item-1 {
+    color: white;
+    min-height: 150px;
+    background-color:#152B59;
+    font-family: ubuntu;
+    align-content: center;
+    flex: 1;
+    font-size: 20px;
+}
+
+.flexbox-item-2 {
+    color: white;
+    min-height: 150px;
+    background-color:#3365A6;
+    flex: 1;
+    align-self: center;
+    font-size: 30px;
+}
+
+.flexbox-item-3 {
+    color: white;
+    background-color:#64758C;
+    font-size: 20px;
+    flex: 1;
+    min-height: 300px;
+    width: 300px;
+}
+
+.flexbox-item-4 {
+    align-items: flex-end;
+    color: white;
+    background-color:#64758C;
+    font-size: 20px;
+    flex: 1;
+    min-height: 300px;
+    width: 300px;
+    font-family: 'Notable', sans-serif;
+}
+.another-container {
+    display: flex;
+    color: white;
+    border: 5px solid #000000;
+    align-content: space-around;
+    padding: 40px;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 28px;
+}
+
+
+canvas {
+    border: thin solid #000000;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+}
